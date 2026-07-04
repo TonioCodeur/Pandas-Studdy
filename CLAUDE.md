@@ -17,6 +17,8 @@ Windows + PowerShell. Python 3.12 and 3.14 are both installed (`py --version`, `
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
+python -m pip install -r requirements.txt   # dépendances du projet : pandas, numpy
+# or
 python -m pip install pandas numpy
 
 # Run a script (venv activated)
